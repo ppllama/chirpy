@@ -4,8 +4,6 @@ Boot.dev HTTP Servers Course Project – Chirpy: A social network similar to Twi
 
 Chirpy is a back-end server that can receive, store, and serve text. It exposes RESTful API endpoints for managing users, authentication, and posts (“chirps”). Postgresql is used as the database
 
----
-
 ## API Endpoints
 
 ### Health & Metrics
@@ -42,8 +40,6 @@ Chirpy is a back-end server that can receive, store, and serve text. It exposes 
 |--------|---------------|----------------------------------|
 | GET    | `/app/*`      | Serve static files from the app directory |
 
----
-
 ## Installation
 
 ```bash
@@ -57,8 +53,6 @@ go build -o chirpy
 # Run the server
 ./chirpy
 ```
-
----
 
 ## Database
 
